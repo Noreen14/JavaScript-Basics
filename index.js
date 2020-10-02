@@ -24,3 +24,15 @@ function square(toSquare){
     return toSquare*toSquare;
 }
 console.log(square(6))
+function sum(firstNumber, secondNumber){
+    return firstNumber+secondNumber;
+}
+console.log(" sum " + sum(9, 5))
+function difference(firstNumber, secondNumber){
+    return firstNumber-secondNumber;
+}
+console.log(" difference " + difference(9, 5))
+function division(firstNumber, secondNumber){
+    return firstNumber/secondNumber
+}
+console.log(" division " + division(10, 5))
